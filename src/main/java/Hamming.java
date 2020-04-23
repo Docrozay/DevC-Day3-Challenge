@@ -16,10 +16,6 @@ class Hamming {
             throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
         }
     }
-        
-
-
-
         int getHammingDistance() {
             int result = 0;
     
